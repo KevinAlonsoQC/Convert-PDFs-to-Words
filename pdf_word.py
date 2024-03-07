@@ -2,10 +2,12 @@ import os
 from pdf2docx import Converter
 
 # Ruta de la carpeta con archivos .pdf
-carpeta_pdf = r"C:\Users\usuario\Desktop\Documentos Almendro\DEMRE\PAES 2023\PRUEBAS"
+#Ejemplo
+carpeta_pdf = r"C:\Users\usuario\Desktop\Documentos\PRUEBAS"
 
 # Ruta de la carpeta de salida para archivos .docx
-carpeta_docx = r"C:\Users\usuario\Desktop\Documentos Almendro\DEMRE\PAES 2023\PRUEBAS\DOCX"
+#Ejemplo
+carpeta_docx = r"C:\Users\usuario\Desktop\Documentos\PRUEBAS\DOCX"
 
 # Asegúrate de que la carpeta de salida exista, si no, créala
 if not os.path.exists(carpeta_docx):
